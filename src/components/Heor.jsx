@@ -29,7 +29,7 @@ const Heor = () => {
 
           {/* Right Image Section */}
           <div className="flex justify-center items-center">
-            <img src={hero.heroImg} alt="hero" className=" w-50 md:w-full" />
+            <img src={hero.heroImg} alt="hero" className=" w-60 md:w-[50%]" />
           </div>
         </div>
       </header>
