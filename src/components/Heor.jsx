@@ -17,7 +17,7 @@ const Heor = () => {
 
             <div className="flex  flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <button className="bg-orange-600/10 py-2 px-6 rounded-md border-2 border-orange-600 font-semibold text-orange-600 hover:bg-orange-600 hover:text-white transition-all cursor-pointer flex gap-3 justify-center">
-                <i class={hero.icon}></i>
+                <i className={hero.icon}></i>
                 {hero.btnCV}
               </button>
 
@@ -29,7 +29,7 @@ const Heor = () => {
 
           {/* Right Image Section */}
           <div className="flex justify-center items-center">
-            <img src={hero.heroImg} alt="hero" className="bg-cover w-96" />
+            <img src={hero.heroImg} alt="hero" className=" w-50 md:w-full" />
           </div>
         </div>
       </header>

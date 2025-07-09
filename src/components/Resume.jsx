@@ -41,7 +41,7 @@ const Resume = () => {
 
             <div className="flex mt-10 w-fit mx-auto">
               <button className="bg-orange-600/10 py-2 px-6 rounded-md border-2 border-orange-600 font-semibold text-orange-600 hover:bg-orange-600 hover:text-white transition-all cursor-pointer flex gap-3">
-                <i class={item.icon}></i>
+                <i className={item.icon}></i>
                 {item.downloadCV}
               </button>
             </div>

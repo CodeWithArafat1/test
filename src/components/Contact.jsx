@@ -22,7 +22,7 @@ const Contact = () => {
                         className="flex gap-5 bg-white  w-12 h-12 justify-center items-center rounded-full"
                         key={i}
                       >
-                        <i class={`${ele.icon}  text-3xl text-orange-600`}></i>
+                        <i className={`${ele.icon}  text-3xl text-orange-600`}></i>
                       </a>
                     );
                   })}
